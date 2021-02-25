@@ -16,8 +16,8 @@ export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: '100% Secure',
-  headline: 'Stay protected 24/7 anywhere anytime',
+  topLine: 'Digital Marketing',
+  headline: 'Lorem ipsum Lorem ispum',
   description:
   'uros peder uros peder uros peder uros peder uros peder',
   buttonLabel: 'Learn More',
@@ -44,8 +44,8 @@ export const homeObjFour = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Data Analytics',
-  headline: 'Every transaction is stored on our secure cloud database',
+  topLine: 'Graphical Design',
+  headline: 'lorem Ipsum Lorem Ipsum Lorem Ipsum',
   description:
     'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
   buttonLabel: 'Sign Up Now',

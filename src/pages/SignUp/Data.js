@@ -7,7 +7,7 @@ export const homeObjOne = {
   headline: 'posaljite nam upit za izradu sajta',
   description:
     'popunite ovu formu',
-  buttonLabel: 'Sign Up',
+  // buttonLabel: 'Sign Up',
   imgStart: '',
   img: require('../../images/svg-2.svg'),
   alt: 'Credit Card'
