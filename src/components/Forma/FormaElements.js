@@ -18,6 +18,7 @@ export const FormWrap = styled.div `
  display: flex;
  flex-direction: column;
  justify-content: center;
+ margin-bottom: 30px;
 
  @media screen and (max-width: 400px) {
      height: 80%auto;
@@ -96,6 +97,12 @@ export const FormButton = styled.button `
  color: #fff;
  font-size: 20px;
  cursor: pointer;
+
+ &:hover {
+    transition: all 0.3s ease-out;
+    background: #0467FB;
+    /* background-color: ${({ primary }) => (primary ? '#0467FB' : '#4B59F7')}; */
+  }
 `
 
 export const Text = styled.span `
@@ -103,4 +110,59 @@ export const Text = styled.span `
  margin-top: 24px;
  color: #fff;
  font-size: 14px;
+
+`
+
+export const StyledFieldset = styled.fieldset`
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ padding: 10px;
+ margin: 20px 0;
+
+ legend{
+     padding: 0 10px;
+     color: white;
+     font-size: 14px;
+
+ }
+
+ label {
+     padding-right: 20px;
+     color: white;
+     font-size: 14px;
+ }
+
+ input {
+     margin-right: 10px;
+     margin-left: 20px;
+ }
+
+`
+
+export const StyledTextArea = styled.textarea`
+background-color: #eee;
+width: 100%;
+min-height: 100px;
+resize: none;
+margin-bottom: 20px;
+`
+
+export const FormSelect = styled.select`
+ width: 100%;
+  height: 35px;
+  background: white;
+  color: gray;
+  padding-left: 5px;
+  font-size: 14px;
+  border: none;
+  margin-bottom: 20px;
+
+  option {
+    color: black;
+    background: white;
+    display: flex;
+    white-space: pre;
+    min-height: 20px;
+    padding: 0px 2px 1px;
+  }
 `
